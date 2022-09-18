@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%- include ('./includes/head') %>
+  include includes/head.pug
   <body>
-    <%- include ('./includes/header') %>
+    include includes/header.pug
     <main>
       <h5>Leave a message! <i class="fa-regular fa-face-smile-wink"></i></h5>
       <form action="/" method="get">
         <fieldset>
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Feel free of leaving a advise of CV improvement, a song you would like to share with me, or a advise of life!"
-          ></textarea>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Feel free of leaving a advise of CV improvement, a song you would like to share with me, or a advise of life!"></textarea>
         </fieldset>
         <fieldset>
           <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
@@ -26,6 +20,6 @@
         <i class="fa-brands fa-linkedin"></i> facu.bayona (creo)
       </p>
     </main>
-    <%- include ('./includes/footer') %>
+    include includes/footer.pug
   </body>
 </html>

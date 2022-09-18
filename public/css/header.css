@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  color: hsl(200deg, 50%, 90%);
+  text-align: center;
+}
+
+/*# sourceMappingURL=header.css.map */

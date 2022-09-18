@@ -1,0 +1,27 @@
+@import "colors";
+
+main {
+  margin: 10vw 0;
+  color: $color-5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+
+  p {
+    background-color: $color-3;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1vh;
+
+    span {
+      font-weight: bold;
+      background-color: transparent;
+    }
+  }
+}

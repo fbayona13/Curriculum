@@ -1,0 +1,8 @@
+@import "colors";
+
+main {
+  margin: 10vw 0;
+  color: $color-5;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}

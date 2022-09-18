@@ -1,0 +1,55 @@
+@import "colors";
+
+footer {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: $color-3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  nav.footer-nav {
+    padding: 2vw;
+    padding-bottom: 0;
+    gap: 2vw;
+    align-self: center;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    a {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 2rem;
+      background-color: $color-5;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        font-size: 1.2rem;
+        background-color: transparent;
+        color: $color-3;
+      }
+    }
+  }
+
+  p {
+    padding: 0 0.5rem;
+    background-color: transparent;
+    color: $color-5;
+    animation: heart-brain 3000ms 500ms ease-in-out;
+
+    i {
+      background-color: transparent;
+    }
+    span {
+      font-weight: bold;
+      background-color: transparent;
+    }
+  }
+}

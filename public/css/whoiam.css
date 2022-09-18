@@ -1,0 +1,24 @@
+main {
+  margin: 10vw 0;
+  color: hsl(200deg, 50%, 90%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+main h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+main p {
+  background-color: hsl(200deg, 100%, 35%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1vh;
+}
+main p span {
+  font-weight: bold;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=whoiam.css.map */

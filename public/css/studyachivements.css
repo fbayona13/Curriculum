@@ -1,0 +1,8 @@
+main {
+  margin: 10vw 0;
+  color: hsl(200deg, 50%, 90%);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/*# sourceMappingURL=studyachivements.css.map */
