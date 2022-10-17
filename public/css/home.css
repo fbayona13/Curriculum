@@ -1,8 +1,8 @@
 main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: stretch;
   margin: 10vw 0;
 }
 main aside {
@@ -16,6 +16,11 @@ main aside {
   justify-content: center;
   align-items: center;
   background-color: hsl(200deg, 100%, 35%);
+}
+main aside img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
 main aside h2 {
   font-size: 1.5rem;

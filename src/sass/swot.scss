@@ -1,0 +1,46 @@
+@import "colors";
+
+main {
+    margin: 10vw 0;
+    color: $color-5;
+    padding: 0.5rem;
+
+    div.div-top {
+        background-color: $color-3;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+
+        h2,
+        p {
+            background-color: transparent;
+        }
+    }
+
+    div.div-bottom {
+        background-color: transparent;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 1rem;
+        margin: 0 2vw;
+
+        div.swot-class {
+            background-color: $color-3;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            font-weight: bold;
+
+            h2 {
+                background-color: transparent;
+            }
+            ul,
+            li {
+                background-color: transparent;
+                font-weight: normal;
+            }
+        }
+    }
+}

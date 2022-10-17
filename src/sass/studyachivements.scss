@@ -3,6 +3,24 @@
 main {
   margin: 10vw 0;
   color: $color-5;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+  div.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    row-gap: 1rem;
+    column-gap: 1rem;
+
+    article {
+      background-color: $color-3;
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+
+      h3,
+      p,
+      img,
+      span {
+        background-color: transparent;
+      }
+    }
+  }
 }

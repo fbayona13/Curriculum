@@ -1,0 +1,69 @@
+@import "colors";
+
+main {
+    margin: 10vw 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    section {
+        color: $color-5;
+        width: 60%;
+        h2 {
+            font-size: 1.5rem;
+            span {
+                font-size: 1.5rem;
+                font-style: italic;
+                color: $color-2;
+            }
+        }
+    }
+
+    aside {
+        background-color: $color-3;
+        padding: 1.5rem;
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 30%;
+
+        h3 {
+            background-color: transparent;
+            color: $color-5;
+        }
+
+        div {
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            border: solid 1px $color-5;
+            border-radius: 0.25rem;
+            background-color: transparent;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 0.5rem;
+            p.p-salary {
+                background-color: transparent;
+                color: $color-5;
+            }
+        }
+
+        p {
+            margin: 0;
+            background-color: transparent;
+            color: $color-5;
+        }
+
+        a {
+            background-color: $color-5;
+            color: $color-2;
+            padding: 0.3rem;
+            border-radius: 0.5rem;
+            align-self: center;
+            font-weight: bold;
+        }
+    }
+}

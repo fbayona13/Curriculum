@@ -7,10 +7,9 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  padding: 0.5rem;
 }
 footer nav.footer-nav {
-  padding: 2vw;
-  padding-bottom: 0;
   gap: 2vw;
   align-self: center;
   background-color: transparent;
@@ -34,17 +33,20 @@ footer nav.footer-nav a i {
   color: hsl(200deg, 100%, 35%);
 }
 footer p {
-  padding: 0 0.5rem;
+  margin: 0;
+  font-size: 0.75rem;
   background-color: transparent;
   color: hsl(200deg, 50%, 90%);
   animation: heart-brain 3000ms 500ms ease-in-out;
 }
 footer p i {
   background-color: transparent;
+  font-size: 0.75rem;
 }
 footer p span {
   font-weight: bold;
   background-color: transparent;
+  font-size: 0.75rem;
 }
 
 /*# sourceMappingURL=footer.css.map */

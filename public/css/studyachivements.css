@@ -1,8 +1,23 @@
 main {
   margin: 10vw 0;
   color: hsl(200deg, 50%, 90%);
+}
+main div.grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+main div.grid-container article {
+  background-color: hsl(200deg, 100%, 35%);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+main div.grid-container article h3,
+main div.grid-container article p,
+main div.grid-container article img,
+main div.grid-container article span {
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=studyachivements.css.map */

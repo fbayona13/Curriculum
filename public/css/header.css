@@ -10,6 +10,7 @@ header {
 }
 
 h1 {
+  margin: 0.5rem;
   font-size: 2rem;
   color: hsl(200deg, 50%, 90%);
   text-align: center;

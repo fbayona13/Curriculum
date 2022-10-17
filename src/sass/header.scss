@@ -1,5 +1,5 @@
-@import 'colors';
-header{
+@import "colors";
+header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -10,7 +10,8 @@ header{
     left: 0;
 }
 
-h1{
+h1 {
+    margin: 0.5rem;
     font-size: 2rem;
     color: $color-5;
     text-align: center;
