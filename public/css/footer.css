@@ -3,7 +3,7 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  background-color: hsl(200deg, 100%, 35%);
+  background-color: transparent;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;

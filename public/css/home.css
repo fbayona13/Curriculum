@@ -18,7 +18,7 @@ main aside {
   background-color: hsl(200deg, 100%, 35%);
 }
 main aside img {
-  width: 100%;
+  width: 70%;
   height: auto;
   border-radius: 50%;
 }

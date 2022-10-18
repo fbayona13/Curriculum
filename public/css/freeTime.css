@@ -1,0 +1,38 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main section {
+  width: 60%;
+  margin-top: 10vh;
+  color: hsl(200deg, 50%, 90%);
+}
+main section h2 {
+  color: hsl(200deg, 100%, 10%);
+  font-size: 1.25rem;
+}
+main .swiper {
+  margin: 0;
+  margin-top: 10vh;
+  width: 30%;
+  height: 50vh;
+}
+main .swiper .swiper-wrapper .swiper-slide {
+  background-color: hsl(200deg, 98%, 65%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+main .swiper .swiper-button-prev {
+  background-color: transparent;
+  color: hsl(200deg, 100%, 10%);
+}
+main .swiper .swiper-button-next {
+  background-color: transparent;
+  color: hsl(200deg, 100%, 10%);
+}
+
+/*# sourceMappingURL=freeTime.css.map */
