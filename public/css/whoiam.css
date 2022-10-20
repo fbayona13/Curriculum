@@ -1,6 +1,6 @@
 main {
-  margin: 10vw 0;
-  color: hsl(200deg, 50%, 90%);
+  margin: 5vh 0;
+  color: hsl(200deg, 49%, 90%);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;

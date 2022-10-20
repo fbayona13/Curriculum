@@ -1,6 +1,6 @@
 main {
   margin: 10vw 0;
-  color: hsl(200deg, 50%, 90%);
+  color: hsl(200deg, 49%, 90%);
 }
 main div.grid-container {
   display: grid;

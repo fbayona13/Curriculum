@@ -5,7 +5,7 @@ main {
   justify-content: space-evenly;
 }
 main section {
-  color: hsl(200deg, 50%, 90%);
+  color: hsl(200deg, 49%, 90%);
   width: 60%;
 }
 main section h2 {
@@ -28,12 +28,12 @@ main aside {
 }
 main aside h3 {
   background-color: transparent;
-  color: hsl(200deg, 50%, 90%);
+  color: hsl(200deg, 49%, 90%);
 }
 main aside div {
   margin-top: 3rem;
   margin-bottom: 1rem;
-  border: solid 1px hsl(200deg, 50%, 90%);
+  border: solid 1px hsl(200deg, 49%, 90%);
   border-radius: 0.25rem;
   background-color: transparent;
   display: flex;
@@ -44,15 +44,15 @@ main aside div {
 }
 main aside div p.p-salary {
   background-color: transparent;
-  color: hsl(200deg, 50%, 90%);
+  color: hsl(200deg, 49%, 90%);
 }
 main aside p {
   margin: 0;
   background-color: transparent;
-  color: hsl(200deg, 50%, 90%);
+  color: hsl(200deg, 49%, 90%);
 }
 main aside a {
-  background-color: hsl(200deg, 50%, 90%);
+  background-color: hsl(200deg, 49%, 90%);
   color: hsl(200deg, 100%, 10%);
   padding: 0.3rem;
   border-radius: 0.5rem;

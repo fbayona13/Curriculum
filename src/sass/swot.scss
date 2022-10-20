@@ -19,13 +19,12 @@ main {
 
     div.div-bottom {
         background-color: transparent;
-        padding: 0.5rem;
         border-radius: 0.5rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         row-gap: 1rem;
         column-gap: 1rem;
-        margin: 0 2vw;
+        margin: 0 ;
 
         div.swot-class {
             background-color: $color-3;
