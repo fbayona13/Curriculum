@@ -7,36 +7,40 @@
       <h2>Studies</h2>
       <!-- HACER UNA TARJETA CON MIS ESTUDIOS -->
 
-      div(class='grid-container')
+      div(class='grid-container-study')
         <article>
           img(src="", alt="")
-          h3 College: Castelfranco
-          p It's a bilingual school, focused in business administration and italian language. English language was relevant too.
-          p From: <span>--</span> to: <span>2014</span>
+          section
+            h3 College: Castelfranco
+            p It's a bilingual school, focused in business administration and italian language. English language was relevant too.
+            p From: <span>--</span> to: <span>2014</span>
         </article>
 
         <article>
-          img(src="", alt="")
-          h3 University: Universidad Catolica de Cordoba
-          p I was studying System Engineer, didn't finished yet
-          p From: <span>2015</span> to: <span>2021</span>
+          img(src="/assets/logo-ucc-2018.svg", alt="logo-ucc-2018.svg")
+          section
+            h3 University: Universidad Catolica de Cordoba
+            p I was studying System Engineer, didn't finished yet
+            p From: <span>2015</span> to: <span>2021</span>
         </article>
 
-        <article>
-          img(src="", alt="")
-          h3 Course: Digital House
-          p I wanted to learn how to make full websites applications, so I started the Full Stack Development course to become a programmer
-          p From: <span>April, 2022</span> to: <span>October, 2022</span>
+        <article>          
+          img(src="/assets/LogoHeader.svg", alt="digital-logo")
+          section
+            h3 Course: Digital House
+            p I wanted to learn how to make full websites applications, so I started the Full Stack Development course to become a programmer
+            p From: <span>April, 2022</span> to: <span>October, 2022</span>
         </article>
       
 
       <h2>Achievements</h2>
       <!-- HACER UNA TARJETA CON MIS LOGROS PERSONALES -->
       
-      div(class='grid-container')
+      div(class='grid-container-achivements')
         <article>
-          h3 
-          p 
+          img(src="/assets/LogoHeader.svg", alt="digital-logo")
+          h3 Certificate Full Stack Development
+          p!= 'Open PDF ' + '<a href="/assets/FacundoBayona.pdf">Certificate Full Stack Development</a>'
         </article>
     </main>
     include includes/footer.pug
