@@ -1,0 +1,123 @@
+@import "colors";
+
+main {
+    margin: 10vh 0;
+
+    h2 {
+        color: $color-2;
+        font-size: 1.5rem;
+        font-style: italic;
+        i {
+            font-size: 1.5rem;
+        }
+    }
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            fieldset {
+                border: none;
+                margin: 0;
+                textarea {
+                    width: 60vw;
+                    height: 60vh;
+                    border: none;
+                    background-color: $color-5;
+                    color: $color-2;
+                    padding: 0.5rem;
+                    border-radius: 0.5rem;
+                }
+            }
+
+            fieldset.buttons {
+                align-self: flex-end;
+                margin: 0;
+                button {
+                    border: none;
+                    background-color: $color-2;
+                    color: $color-5;
+                    padding: 0.5rem 1.5rem;
+                    border-radius: 0.5rem;
+
+                    i {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+
+        p {
+            background-color: $color-2;
+            color: $color-5;
+            width: 30%;
+            margin: 0;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+            a {
+                background-color: transparent;
+                color: $color-5;
+                padding: 0.5rem;
+                i {
+                    background-color: transparent;
+                    font-size: 1.2rem;
+                }
+            }
+
+            img {
+                width: 50%;
+                height: auto;
+                background-color: transparent;
+                align-self: center;
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        div {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                width: 60vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    body {
+        margin: 0;
+        main {
+            div {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                form{
+                    fieldset {
+                        textarea{
+                            width: 90vw;
+                            height: auto;
+                        }
+                    }
+                }
+                p {
+                    width: 90vw;
+                }
+            }
+        }
+    }
+}

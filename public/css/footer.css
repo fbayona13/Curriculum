@@ -21,7 +21,7 @@ footer nav.footer-nav a {
   width: 3rem;
   height: 3rem;
   border-radius: 2rem;
-  background-color: hsl(200deg, 49%, 90%);
+  background-color: hsl(199deg, 49%, 90%);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -36,7 +36,7 @@ footer p {
   margin: 0;
   font-size: 0.75rem;
   background-color: transparent;
-  color: hsl(200deg, 49%, 90%);
+  color: hsl(199deg, 49%, 90%);
   animation: heart-brain 3000ms 500ms ease-in-out;
 }
 footer p i {

@@ -1,6 +1,6 @@
 main {
   margin: 10vw 0;
-  color: hsl(200deg, 49%, 90%);
+  color: hsl(199deg, 49%, 90%);
 }
 main h2 {
   font-size: 1.5rem;
@@ -53,7 +53,7 @@ main div.grid-container-achivements article img {
 }
 main div.grid-container-achivements article a {
   background-color: transparent;
-  color: hsl(200deg, 49%, 90%);
+  color: hsl(199deg, 49%, 90%);
   font-style: italic;
 }
 

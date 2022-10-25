@@ -13,7 +13,7 @@ main section.grid {
 }
 main section.grid div {
   background-color: hsl(200deg, 100%, 35%);
-  color: hsl(200deg, 49%, 90%);
+  color: hsl(199deg, 49%, 90%);
   padding: 1rem;
   border-radius: 0.5rem;
 }

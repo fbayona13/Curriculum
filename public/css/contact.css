@@ -1,0 +1,106 @@
+main {
+  margin: 10vh 0;
+}
+main h2 {
+  color: hsl(200deg, 100%, 10%);
+  font-size: 1.5rem;
+  font-style: italic;
+}
+main h2 i {
+  font-size: 1.5rem;
+}
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+main div form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+main div form fieldset {
+  border: none;
+  margin: 0;
+}
+main div form fieldset textarea {
+  width: 60vw;
+  height: 60vh;
+  border: none;
+  background-color: hsl(199deg, 49%, 90%);
+  color: hsl(200deg, 100%, 10%);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+main div form fieldset.buttons {
+  align-self: flex-end;
+  margin: 0;
+}
+main div form fieldset.buttons button {
+  border: none;
+  background-color: hsl(200deg, 100%, 10%);
+  color: hsl(199deg, 49%, 90%);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+main div form fieldset.buttons button i {
+  background-color: transparent;
+}
+main div p {
+  background-color: hsl(200deg, 100%, 10%);
+  color: hsl(199deg, 49%, 90%);
+  width: 30%;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+main div p a {
+  background-color: transparent;
+  color: hsl(199deg, 49%, 90%);
+  padding: 0.5rem;
+}
+main div p a i {
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+main div p img {
+  width: 50%;
+  height: auto;
+  background-color: transparent;
+  align-self: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  main div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main div p {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 570px) {
+  body {
+    margin: 0;
+  }
+  body main div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main div form fieldset textarea {
+    width: 90vw;
+    height: auto;
+  }
+  body main div p {
+    width: 90vw;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */
