@@ -1,4 +1,6 @@
 @import "colors";
+$width: 90vw;
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +20,7 @@ main {
         align-items: center;
         background-color: $color-3;
 
-        img{
+        img {
             width: 70%;
             height: auto;
             border-radius: 50%;
@@ -60,6 +62,25 @@ main {
             color: $color-5;
             background-color: $color-3;
             font-weight: 600;
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    main {
+        margin: 15vw 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        aside {
+            width: $width;
+        }
+
+        nav {
+            width: $width;
+            padding: 3vw;
         }
     }
 }

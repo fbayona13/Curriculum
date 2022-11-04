@@ -58,4 +58,21 @@ main nav a {
   font-weight: 600;
 }
 
+@media screen and (max-width: 570px) {
+  main {
+    margin: 15vw 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  main aside {
+    width: 90vw;
+  }
+  main nav {
+    width: 90vw;
+    padding: 3vw;
+  }
+}
+
 /*# sourceMappingURL=home.css.map */

@@ -10,7 +10,7 @@ main {
 
     picture {
         width: 20vw;
-        
+
         img {
             width: 100%;
             height: auto;
@@ -40,6 +40,14 @@ main {
                 font-weight: bold;
                 background-color: transparent;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    main {
+        picture {
+            width: 40vw;
         }
     }
 }

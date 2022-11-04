@@ -36,4 +36,10 @@ main div.p-description p span {
   background-color: transparent;
 }
 
+@media screen and (max-width: 570px) {
+  main picture {
+    width: 40vw;
+  }
+}
+
 /*# sourceMappingURL=whoiam.css.map */
