@@ -1,0 +1,23 @@
+@import 'colors';
+
+main {
+    margin: 10vw 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    aside {
+        width: 30%;
+        div {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 0.25rem;
+            row-gap: 0.25rem;
+
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}

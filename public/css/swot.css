@@ -37,4 +37,13 @@ main div.div-bottom div.swot-class li {
   font-weight: normal;
 }
 
+@media screen and (max-width: 570px) {
+  main {
+    margin: 15vw 0;
+  }
+  main div.div-bottom {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*# sourceMappingURL=swot.css.map */
