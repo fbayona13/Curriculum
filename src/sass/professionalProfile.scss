@@ -1,23 +1,56 @@
 @import 'colors';
+$height: 100vh;
 
 main {
-    margin: 10vw 0;
+    margin: 5vw 0;
+    color: $color-5;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+
     aside {
-        width: 30%;
+        width: 25%;
+        height: $height;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: $color-3;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            background-color: transparent;
+            font-size: 1.25rem
+        }
+
         div {
+            background-color: transparent;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             column-gap: 0.25rem;
             row-gap: 0.25rem;
 
             img{
+                background-color: transparent;
+                justify-self: center;
                 width: 100px;
                 height: 100px;
             }
+        }
+    }
+
+    section {
+        width: 65%;
+        height: $height;
+        border-radius: 0.5rem;
+        background-color: $color-3;
+        padding: 0.5rem 1rem;
+        
+        h2 {
+            background-color: transparent;
+            font-size: 1.2rem;
         }
     }
 }

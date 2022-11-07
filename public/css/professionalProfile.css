@@ -1,22 +1,49 @@
 main {
-  margin: 10vw 0;
+  margin: 5vw 0;
+  color: hsl(199deg, 49%, 90%);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 main aside {
-  width: 30%;
+  width: 25%;
+  height: 100vh;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: hsl(200deg, 100%, 35%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+main aside h2 {
+  background-color: transparent;
+  font-size: 1.25rem;
 }
 main aside div {
+  background-color: transparent;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 0.25rem;
   row-gap: 0.25rem;
 }
 main aside div img {
+  background-color: transparent;
+  justify-self: center;
   width: 100px;
   height: 100px;
+}
+main section {
+  width: 65%;
+  height: 100vh;
+  border-radius: 0.5rem;
+  background-color: hsl(200deg, 100%, 35%);
+  padding: 0.5rem 1rem;
+}
+main section h2 {
+  background-color: transparent;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=professionalProfile.css.map */
