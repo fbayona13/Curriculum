@@ -1,8 +1,8 @@
-@import 'colors';
+@import "colors";
 $height: 100vh;
 
 main {
-    margin: 5vw 0;
+    margin: 10vw 0;
     color: $color-5;
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@ main {
 
         h2 {
             background-color: transparent;
-            font-size: 1.25rem
+            font-size: 1.25rem;
         }
 
         div {
@@ -32,7 +32,7 @@ main {
             column-gap: 0.25rem;
             row-gap: 0.25rem;
 
-            img{
+            img {
                 background-color: transparent;
                 justify-self: center;
                 width: 100px;
@@ -47,10 +47,83 @@ main {
         border-radius: 0.5rem;
         background-color: $color-3;
         padding: 0.5rem 1rem;
-        
+
         h2 {
             background-color: transparent;
             font-size: 1.2rem;
+        }
+
+        div.inner-div-cards {
+            padding: 0.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            align-items: center;
+            gap: 1rem;
+            background-color: transparent;
+
+            .flip-card {
+                background-color: transparent;
+                width: 300px;
+                height: 200px;
+                border: none;
+                perspective: 1000px; /* Remove this if you don't want the 3D effect */
+            }
+
+            /* This container is needed to position the front and back side */
+            .flip-card-inner {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 0.8s;
+                transform-style: preserve-3d;
+            }
+
+            /* Do an horizontal flip when you move the mouse over the flip box container */
+            .flip-card:hover .flip-card-inner {
+                transform: rotateY(180deg);
+            }
+
+            /* Position the front and back side */
+            .flip-card-front,
+            .flip-card-back {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden; /* Safari */
+                backface-visibility: hidden;
+            }
+
+            /* Style the front side (fallback if image is missing) */
+            .flip-card-front {
+                background-position: center;
+                background-size: cover;
+                background-color: $color-3;
+            }
+
+            /* Style the back side */
+            .flip-card-back {
+                background-color: $color-2;
+                color: $color-5;
+                transform: rotateY(180deg);
+
+                h3 {
+                    background-color: transparent;
+                    font-size: 1rem;
+                }
+                p {
+                    background-color: transparent;
+                }
+                a {
+                    background-color: transparent;
+                    i {
+                        background-color: transparent;
+                        color: $color-5;
+                        font-size: 2rem;
+                    }
+                }
+            }
         }
     }
 }

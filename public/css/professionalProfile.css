@@ -1,5 +1,5 @@
 main {
-  margin: 5vw 0;
+  margin: 10vw 0;
   color: hsl(199deg, 49%, 90%);
   display: flex;
   flex-wrap: wrap;
@@ -44,6 +44,71 @@ main section {
 main section h2 {
   background-color: transparent;
   font-size: 1.2rem;
+}
+main section div.inner-div-cards {
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  background-color: transparent;
+  /* This container is needed to position the front and back side */
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  /* Position the front and back side */
+  /* Style the front side (fallback if image is missing) */
+  /* Style the back side */
+}
+main section div.inner-div-cards .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: none;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+main section div.inner-div-cards .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+main section div.inner-div-cards .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+main section div.inner-div-cards .flip-card-front,
+main section div.inner-div-cards .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+main section div.inner-div-cards .flip-card-front {
+  background-position: center;
+  background-size: cover;
+  background-color: hsl(200deg, 100%, 35%);
+}
+main section div.inner-div-cards .flip-card-back {
+  background-color: hsl(200deg, 100%, 10%);
+  color: hsl(199deg, 49%, 90%);
+  transform: rotateY(180deg);
+}
+main section div.inner-div-cards .flip-card-back h3 {
+  background-color: transparent;
+  font-size: 1rem;
+}
+main section div.inner-div-cards .flip-card-back p {
+  background-color: transparent;
+}
+main section div.inner-div-cards .flip-card-back a {
+  background-color: transparent;
+}
+main section div.inner-div-cards .flip-card-back a i {
+  background-color: transparent;
+  color: hsl(199deg, 49%, 90%);
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=professionalProfile.css.map */

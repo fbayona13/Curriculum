@@ -8,11 +8,12 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-}
 
-h1 {
-    margin: 0.5rem;
-    font-size: 2rem;
-    color: $color-5;
-    text-align: center;
+    a {
+        width: 12.5rem;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
 }

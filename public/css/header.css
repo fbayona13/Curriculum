@@ -8,12 +8,12 @@ header {
   top: 0;
   left: 0;
 }
-
-h1 {
-  margin: 0.5rem;
-  font-size: 2rem;
-  color: hsl(199deg, 49%, 90%);
-  text-align: center;
+header a {
+  width: 12.5rem;
+}
+header a img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=header.css.map */

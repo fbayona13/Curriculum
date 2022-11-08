@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../src/sass/header.scss","../../src/sass/_colors.scss"],"names":[],"mappings":"AACA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA,OCVM;EDWN","file":"header.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/sass/header.scss"],"names":[],"mappings":"AACA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AACA;EACI;EACA","file":"header.css"}

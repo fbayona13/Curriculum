@@ -19,8 +19,28 @@
 
       section 
         h2 Proyects
+        div(class='inner-div-cards')
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url('/images/logosProfessional/logo-curriculum-trans.svg')"></div>
+              <div class="flip-card-back">
+                <h3>CURRICULUM</h3>
+                <p>Este curriculum esta realizado con Sass, pug.js, MySQL</p>
+                a(href="https://github.com/fbayona13/Curriculum") <i class="fa-brands fa-github"></i>
+              </div>
+            </div>
+          </div> 
 
-      //- img(src="/assets/Programming-amico.svg", alt="")
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url('/images/logosProfessional/LogoAlt.png')"></div>
+              <div class="flip-card-back">
+                <h3>FAST-BAR</h3>
+                <p>Proyecto integrador DH. La idea es una app que permita la comercializacion de tragos en un bar</p>
+                a(href="https://github.com/fbayona13/grupo.8.FastBar") <i class="fa-brands fa-github"></i>
+              </div>
+            </div>
+          </div> 
 
     </main>
     include includes/footer.pug
